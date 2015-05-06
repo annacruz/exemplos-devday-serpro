@@ -1,6 +1,7 @@
 package ocp;
 
 public class CalculadoraDePrecos {
+	
     public double calcula(Compra produto) {
         TabelaDePrecoPadrao tabela = new TabelaDePrecoPadrao();
         Frete correios = new Frete();

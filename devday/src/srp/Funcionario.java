@@ -1,6 +1,7 @@
 package srp;
 
 public class Funcionario {
+	
 	private String nome;
 	private Cargo cargo;
 	private double salarioBase;

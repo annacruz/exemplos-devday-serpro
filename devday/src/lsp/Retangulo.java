@@ -1,18 +1,18 @@
 package lsp;
 
 public class Retangulo {
-	private int x;
-	private int y;
+	private int base;
+	private int altura;
 
-	public Retangulo(int x, int y) {
-		this.x = x;
-		this.y = y; 
+	public Retangulo(int base, int altura) {
+		this.base = base;
+		this.altura = altura; 
 	}
-	public int getX() {
-		return this.x;
+	public int getBase() {
+		return this.base;
 	}
-	public int getY() {
-		return this.y;
+	public int getAltura() {
+		return this.altura;
 	}
 
 }

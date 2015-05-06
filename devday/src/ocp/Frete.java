@@ -6,6 +6,6 @@ public class Frete {
 		if("RIO DE JANEIRO".equals(cidade.toUpperCase())) {
 			return 15;
 		}
-		return 30; }
-
+		return 30; 
+	}
 }

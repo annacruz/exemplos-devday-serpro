@@ -1,6 +1,7 @@
 package ocp;
 
 public class Compra {
+	
 	private double valor;
 	private String cidade;
 	

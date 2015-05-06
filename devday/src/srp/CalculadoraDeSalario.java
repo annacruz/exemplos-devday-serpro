@@ -14,6 +14,7 @@ public class CalculadoraDeSalario {
 	}
 
 	private double dezOuVintePorcento(Funcionario funcionario) {
+		
 		if(funcionario.getSalarioBase() > 3000.0) {
 			return funcionario.getSalarioBase() * 0.8;
 		}
@@ -30,5 +31,4 @@ public class CalculadoraDeSalario {
 			return funcionario.getSalarioBase() * 0.85;
 		}
 	}
-
 }
